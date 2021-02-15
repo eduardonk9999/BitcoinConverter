@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@200;300;400;500&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+input{
+  outline: none;
+}
+
+body{
+  background: #EEEEEE;
+  font-family: 'Saira', sans-serif;
+}
+
+.bitcoin{
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  background: #BED3D8;
+}
+.content-bitcoin{
+  background: #F5DF5B;
+  padding: 30px 30px;
+}
+.iconconverter{
+  display: block;
+  margin: 30px auto;
+}
+.box-bitcoin select {
+  height: 44px;
+  background: transparent;
+  border: 1px solid #000;
+  outline: none;
+  padding: 10px 5px;
+  vertical-align: bottom;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.box-bitcoin input {
+  height: 44px;
+  padding: 10px;
+  font-size: 26px;
+  max-width: 150px;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+  background: #FBED93;
+}
+
