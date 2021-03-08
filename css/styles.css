@@ -52,3 +52,25 @@ header{
   background: #FBED93;
 }
 
+.valu-bitcoin{/* padding: 10px; */font-size: 26px;max-width: 150px;border-radius: 50px;border: none;text-align: center;height: 40px;background: #FBED93;width: 100%;}
+button {
+  max-width: 239px;
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  display: block;
+  height: 51px;
+  border: 0;
+  box-shadow: 2px 3px 5px #00000061;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.box-bitcoin.box-bitcoin-value {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 232px;
+  align-items: baseline;
+}
