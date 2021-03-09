@@ -14,13 +14,29 @@ form.addEventListener('submit', event => {
 
   const selected = event.target.options.value;
 
+  
 
-  // ACHO QUE O LANCE É FETCH COM PROMISSE
-  // fetch('https://blockchain.info/ticker')
-  //   .then(response => response.json())
-  //   .then(json => {
-  //     console.log(`${json.parse()}`)
-  //   })
+
+
+  fetch('https://blockchain.info/ticker')
+    .then(response => response.json())
+    .then(item => {
+      console.log(item[`${selected}`].last)
+
+      
+
+     
+    // console.log(JSON.stringify(item))
+
+    // const t = item;
+    // console.log(t)
+    // const teste = t + '.' + 'USD'
+    // console.log(teste)
+
+    //  const { last } = 
+      
+    //  console.log(last)
+    })
 })
 
 
